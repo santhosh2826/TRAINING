@@ -1,0 +1,52 @@
+
+.navMenu{
+    background-color: blue;
+    height: 100px;
+}
+.inbox1-1
+{
+    background-color: black;
+    height: 250px;
+    border: 10px solid whitesmoke;
+}
+.inbox1-2{
+    background-color: brown;
+    height: 250px;
+    border: 10px solid blanchedalmond;
+}
+
+
+.iibox1{
+    background-color: yellow;
+    height: 125px;
+    margin-top: 40px!important;
+}
+.iibox2{
+    background-color: hotpink;
+    height: 125px;
+    margin-top: 40px!important;
+}
+.iibox3{
+    background-color: rgb(255, 153, 0);
+    height: 125px;
+    margin-top: 40px!important;
+}
+.card1{
+    background-color: rgb(255, 153, 0);
+    height: 125px;
+    border: 10px solid rgb(29, 28, 27);
+}
+
+.card2{
+    background-color: rgb(156, 172, 18);
+    height: 125px;
+    border: 10px solid rgb(255, 208, 205);
+}
+
+.card3{
+    background-color: aqua;
+    height: 125px;
+    border: 10px solid rgb(245, 241, 236);
+}
+
+

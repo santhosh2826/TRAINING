@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <titl> color</title>        <style>
+            div{
+                height: 100px;
+                width: 1000px;
+                background: blue;
+                
+            }
+            body{
+              display: flex;
+                align-items: center;
+            }
+        </style>
+</head>
+<body>
+<div></div>
+<select onchange="bag(this.value)">
+    <option value="yellow ">yellow</option>
+    <option value="blue">blue</option>
+    <option value="red">red</option>
+   </select>
+  <!-- <div id="input"></div> -->
+  <script>
+    box=document.querySelector("div")
+    function bag(color)
+    {
+       box.style.background=color;
+    }
+// <!-- //     let name=prompt("hi how are you");
+// //    let str=document.getElementById("input");
+// // str.innerHTML=name; -->
+  </script>
+</body>
+</html>

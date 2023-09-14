@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>mini caluclator</title>
+    <style>
+    body{
+        background-color: aqua;
+    }
+    </style>
+</head>
+<body>
+    
+        <h2>Addition</h2>
+        <div class="inputdiv">
+            <input type="text" id="input1"  placeholder="integer 1" >
+        </div>
+       
+            <input type="text" id="input2" placeholder="integer 2">
+        </div>
+        <div>
+            <button type="submit" onclick="add()">Add</button>
+            <button type="submit" onclick="sub()">1</button>
+            <button type="submit" onclick="count()">2</button>
+        </div>
+            
+        <div id="result">
+        </div>
+        <script>
+                
+            
+            function add()
+            {
+            let num1=Number(document.getElementById("input1").value)
+            let num2=Number(document.getElementById("input2").value)
+            let num3=num1+num2
+            let result= document.getElementById("result")
+            result.innerHTML = num3
+            }
+            function sub()
+            {
+            let num1= document.getElementById('input1');
+            num1.value='1';
+
+           
+            // let num2=Number(document.getElementById("input2").value)
+            // let num3=num1-num2
+            // let result= document.getElementById("result")
+            // result.innerHTML = "hi am santhosh"
+       
+        //    num.innerHTML='i am david';
+            }
+            function count()
+            {
+                let num2= document.getElementById('input2');
+            num2.value='2';
+            }
+        </script>
+</body>
+</html>
