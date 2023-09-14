@@ -1,0 +1,11 @@
+a=[{
+    name:"santhosh",
+    cost:20
+},
+{
+    name:"santhiya",
+    cost:20
+}
+]     
+s=a.reduce((a,b)=>a+b.cost,0)
+console.log(s);

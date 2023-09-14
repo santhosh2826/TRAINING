@@ -1,0 +1,17 @@
+student=[
+    {
+       name:"santhosh",
+       grade:100
+    },
+    {
+        name:"santhiya",
+        grade:80
+     },
+     {
+        name:"vinoth",
+        grade:80 
+     }
+]
+s=80;
+n=student.filter(e=>e.grade>s)
+console.log(n)

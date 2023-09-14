@@ -1,0 +1,10 @@
+a=[{
+    name:"santhosh",
+    age:30
+},
+{
+    name:"karthick",
+    age:20
+}]
+s=a.reduce((a,b)=>a+b.age,0)
+console.log(s/a.length);

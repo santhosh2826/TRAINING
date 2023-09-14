@@ -1,0 +1,17 @@
+student=[
+    {
+       name:"santhosh",
+       hobbies:"tv"
+    },
+    {
+        name:"santhiya",
+        hobbies:"tv"
+     },
+     {
+        name:"vinoth",
+        hobbies:"play" 
+     }
+]
+s="play"
+n=student.filter(e=>e.hobbies==s)
+console.log(n)
