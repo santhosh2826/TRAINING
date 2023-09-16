@@ -1,0 +1,247 @@
+html {
+    scroll-behavior:smooth;
+  }
+  body{
+    overflow-x: hidden;
+  }
+div{
+    transition: transform .2s;
+}
+div h2:hover{
+    transform: scale(1.5);
+    color: red;
+}
+div  .box1:hover{
+    transform: scale(1.5);
+    color: red;
+}
+div  .box2:hover{
+    transform: scale(1.5);
+    color: red;
+}
+div  .box3:hover{
+    transform: scale(1.5);
+    color: red;
+}
+.title h1{
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(233, 65, 14, 0.897);
+    text-align: center;
+    letter-spacing: 20px;
+    height: 50px;
+    transition: transform .2s;
+   
+}
+.title h1:hover{
+
+    text-transform: uppercase;
+    transform: scale(1.5);
+    color: aqua;
+}
+.menu{
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+
+}
+.menu a
+{ 
+   text-decoration: none;
+color: black;
+font-size: 20px;
+}
+.menu a:hover{
+background-color: blueviolet;
+text-transform: uppercase;
+}
+.flex{
+    display: flex;
+}
+.card1{
+    margin-top: 20px;
+    height:130px;
+    background-color: blue;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    
+}
+.box1{
+    height: 100px;
+    background:aqua;
+    width: 100px;
+    align-items: center;
+    justify-content: center; ;
+}
+.box2{
+    height: 100px;
+    background:rgb(214, 201, 18);
+    width: 100px;
+    align-items: center;
+    justify-content: center; 
+}
+.box3{
+    height: 100px;
+    background:rgb(55, 236, 19);
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card2{
+    margin-top: 20px;
+    height:130px;
+    background-color: blue;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.card3{
+    margin-top: 20px;
+    height:130px;
+    background-color: blue;
+    flex-direction: row;
+    justify-content:flex-start;
+    padding: 10px;
+    
+}
+.card4{
+    margin-top: 20px;
+    height:130px;
+    background-color: blue;
+    flex-direction: row;
+    justify-content:flex-end;
+    padding: 10px;
+    
+}
+.card5{
+    margin-top: 20px;
+    height:130px;
+    background-color: blue;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    
+}
+.card6{
+    margin-top: 20px;
+    height:130px;
+    background-color: blue;
+    flex-direction: row;
+    align-items:flex-start;
+    padding: 10px;
+    
+}
+.card7{
+    margin-top: 20px;
+    height:130px;
+    background-color: blue;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 10px;
+    
+}
+.card8{
+    margin-top: 20px;
+    height:130px;
+    background-color: blue;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+.card9{
+    margin-top: 20px;
+    height:130px;
+    background-color: blue;
+    flex-direction: column;
+    padding: 10px;
+}
+.card10{
+    margin-top: 20px;
+    height:130px;
+    background-color: blue;
+    flex-direction: row-reverse;
+    justify-content: start;
+    padding: 10px;
+}
+.card11{
+    margin-top: 20px;
+    height:130px;
+    background-color: blue;
+    flex-direction: column-reverse;
+    padding: 10px;
+}
+.card12{
+    margin-top: 20px;
+    height:130px;
+    background-color: blue;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.card13{
+    margin-top: 20px;
+    height:130px;
+    background-color: blue;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    
+}
+.card14{
+    margin-top: 20px;
+    height:130px;
+    background-color: blue;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.card15{
+    margin-top: 20px;
+    height:130px;
+    background-color: blue;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: nowrap;
+    
+}
+.card16{
+    margin-top: 20px;
+    height:190px;
+    background-color: blue;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    
+}
+.card17{
+    margin-top: 20px;
+    height:190px;
+    background-color: blue;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap-reverse;
+
+    
+}
+.card18{
+    margin-top: 20px;
+    height:190px;
+    background-color: blue;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 5px;
+
+    
+}
