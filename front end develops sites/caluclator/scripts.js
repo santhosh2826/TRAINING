@@ -6,6 +6,7 @@ let result = 0
 
 let numArray = []
 let secondNumberArr = []
+let thirdNumber=[]
 
 let display = document.getElementById('display')
 
@@ -14,17 +15,22 @@ function getNumber(num) {
 		numArray.push(num)
 		step = 1
 		firstNumber = Number(numArray.join(''))
-		display.value = firstNumber
+		display.value += firstNumber
 	} else if (step === 2) {
 		secondNumberArr.push(num)
 		secondNumber = Number(secondNumberArr.join(''))
-		display.value = secondNumber
+		display.value += secondNumber
+	}
+	else if(step === 3 ){
+		thirdNumberArr.push(num)
+		thirdNumber = Number(thirdNumberArrNumberArr.join(''))
+		display.value += thirdNumber
 	}
 }
 
 function getOperator(operator) {
 	step = 2
-	display.value = operator
+	display.value += operator
 	operation = operator
 }
 
@@ -32,16 +38,16 @@ function calculateResult() {
 	console.log('first number', firstNumber, 'second number', secondNumber)
 	if (operation === '+') {
 		result = firstNumber + secondNumber
-		display.value = result
+		display.value += '='+result
 	} else if (operation === '-') {
 		result = firstNumber - secondNumber
-		display.value = result
+		display.value += '='+result
 	} else if (operation === '*') {
 		result = firstNumber * secondNumber
-		display.value = result
+		display.value += '='+result
 	} else if (operation === '/') {
 		result = firstNumber / secondNumber
-		display.value = result
+		display.value += result
 	}
 }
 function clearDisplay() {
