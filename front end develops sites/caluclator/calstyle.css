@@ -1,0 +1,98 @@
+.card1{
+
+    height: 668px;
+    width: 414px;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+    }
+    .outercard{
+        background: #fff;
+        height: 700px;
+    
+        border-radius: 61px;
+        border: 8px solid black;
+    }
+    .mb1{
+        margin-top: -31px;
+    }
+    .mb2{
+        margin-top: -26px;
+    }
+    .mobnav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+       margin-top: 42px;
+    
+    }
+    a{
+        color: #0d0b0b;
+    }
+    .element
+    {    margin-left: 90px;
+        border: 2px solid gray;
+        width: 212px;
+        height: 49px;
+        font-size: 30px;
+    }
+    .b1{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .btn1{
+        color: #0a0909;
+        background-color: rgb(47, 240, 230);
+        border-radius: 37px;
+        border: 2px solid black;
+        height: 53px;
+        width: 58px;
+        font-size: 19px;
+    }
+    .btn4{
+        color: #131111;
+        background-color: rgb(118, 240, 47);
+        border-radius: 37px;
+        border: 2px solid rgb(15, 12, 12);
+        height: 53px;
+        width: 58px;
+        font-size: 19px;
+    }
+    .btn2{
+        color: #e9dfdf;
+        background-color: rgb(255, 94, 0);
+        border-radius: 9px;
+        border: 2px solid black;
+        height: 43px;
+        width: 174px;
+        font-size: 34px;
+        transition: transform .2s;;
+        
+    }
+    .op{
+        color: #eee5e5;
+        background-color: rgb(47, 115, 240);
+        border-radius: 37px;
+        border: 2px solid black;
+        height: 53px;
+        width: 58px;
+        font-size: 26px;
+    }
+    .del{
+        color: #141414;
+        background-color: rgb(240, 227, 47);
+        border-radius: 37px;
+        border: 2px solid black;
+        height: 53px;
+        width: 58px;
+        font-size: 19px;
+    }
+    .head{
+        margin-top: 42px;
+    }
+    .btn2:hover{
+        transform: scale(1.5);
+    }
+    

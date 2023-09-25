@@ -13,23 +13,31 @@
 <body>
     
         <h2>Addition</h2>
-        <div class="inputdiv">
-            <input type="text" id="input1"  placeholder="integer 1" >
-        </div>
-       
-            <input type="text" id="input2" placeholder="integer 2">
-        </div>
+    
+            <input type="text" id="input1">
+            <input type="button" name="one" value="1" onclick="input1.value += '1'">
+            <input type="button" name="two" value="2" onclick="input1.value += '2'">
+            <input type="button" name="plus" value="+" onclick="input1.value += '+'">
+            <input type="button" name="doit" value="=" onclick="calculateResult()">
         <div>
             <button type="submit" onclick="add()">Add</button>
-            <button type="submit" onclick="sub()">1</button>
-            <button type="submit" onclick="count()">2</button>
         </div>
             
         <div id="result">
         </div>
         <script>
                 
-            
+                function calculateResult() {
+        try {
+            const result = Function('"use strict";return (' + expression + ')')();
+            document.getElementById('result').value = result;
+            expression = result.toString();
+            resultDisplayed = true;
+        } catch (error) {
+            alert('Invalid input');
+            clearResult();
+        }
+    }
             function add()
             {
             let num1=Number(document.getElementById("input1").value)

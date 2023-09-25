@@ -1,0 +1,26 @@
+.card1{
+    height: 31px;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display:flex;
+}
+.icon{
+    margin-left: 10px;
+    width: 23px;
+}
+.btn{
+width: 150px;
+padding: 22px;
+}
+.btn button{
+    height: 30px;
+    border-radius: 15px;
+    color:white;
+    background-color: black;
+}
+.title
+{
+    font-size: 14.9px;
+}

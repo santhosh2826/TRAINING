@@ -40,6 +40,7 @@ div  .box3:hover{
     transform: scale(1.5);
     color: aqua;
 }
+
 .menu{
     display: flex;
 flex-direction: row;
@@ -241,7 +242,5 @@ text-transform: uppercase;
     align-items: center;
     padding: 10px;
     flex-wrap: wrap;
-    gap: 5px;
-
-    
+    gap: 5px;    
 }
