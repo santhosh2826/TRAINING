@@ -20,6 +20,9 @@
     .mb2{
         margin-top: -26px;
     }
+    input[class= "btn4"] {
+        font-family: 'Font Awesome 5 Free';
+    }
     .mobnav{
         display: flex;
         flex-direction: row;
