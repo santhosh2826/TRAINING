@@ -1,0 +1,137 @@
+ul li{
+    list-style: none;
+}
+table {
+    border: 1px solid black;
+    width:50%;
+    height:200px;
+
+
+}
+table th {
+    // border:1px solid black;
+    text-align: center;
+    font-size: 20px;
+    background: rgb(104, 107, 103);
+    color: white;
+}
+
+table td{
+    // border: 1px solid black;
+    text-align    : center;
+    background: rgb(149, 179, 243);
+    font-size: 20px;
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: Red;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+   
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 35px;
+    width:auto;
+}
+.btn button{
+    border-radius: 20px;
+//  background: greenyellow;
+ color:rgb(241, 238, 238);
+ font-size: 15px;
+}
+.form1{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+   margin-left: 785px;
+   gap: 10px;
+   width: 110px;
+ 
+   margin-top: 10px;
+  
+}
+.form1 input{
+    width: 100px;
+}
+.form1 button{
+    width: 110px;
+//   background-color: rgb(219, 84, 84);
+//   color: white;
+}
+form{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+   margin-left: 490px;
+   gap: 10px;
+  
+}
+form input{
+    width: 100px;
+}
+form button{
+    width: 110px;
+}
+form button:hover{
+    background:  rgb(43, 233, 43);
+}
+form input:hover{
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+}
+.form1 button:hover{
+    background:  rgb(43, 233, 43);
+}
+.form1 input:hover{
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+}
+.succes{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+   margin-left: 485px;
+   margin-top: 2%;
+   width: 100px;
+   height: 100px;
+   border: 1px solid blue;
+}
+.succes i{
+    margin-left:40px;
+    margin-top: 18px;
+}
+.succes1{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+   margin-left: 780px;
+   margin-top: 2%;
+   width: 100px;
+   height: 100px;
+   border: 2px solid rgb(19, 19, 19);
+}
+.succes1 i{
+    margin-left:40px;
+    margin-top: 18px;
+}
+.succes1 button{
+    background-color: aqua;
+    border-radius: 50px;
+    width: 50%;
+    margin-left: 30%;
+}
+.succes button{
+    background-color: aqua;
+    border-radius: 50px;
+    width: 50%;
+    margin-left: 30%;
+}

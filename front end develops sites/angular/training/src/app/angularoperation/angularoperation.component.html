@@ -1,0 +1,34 @@
+<p>angularoperation works!</p>
+<table>
+    <tr>
+        <!-- <th>id</th> -->
+        <th>movie name</th>
+        <th>heroname</th>
+        <th>Action</th>
+    </tr>
+    <tr *ngFor="let item of movies ">
+        <!-- <td>    {{item.id}}    </td> -->
+        <td>    {{item.moviename}}    </td>
+        <td>    {{item.heroname}}    </td>
+        <td>    <button (click)="get(item.id)">edit</button><button (click)="del(item.id)">Delete</button> </td>
+        <!-- <td>    <button (click)="delete(item.id)">delete</button> </td> -->
+    </tr>
+</table>
+<div >
+<!--     
+    <label for="">Id:</label> -->
+<input  type="hidden" name="id" [(ngModel)]="id" >
+
+<label for="">moviename:</label>
+<input  type="text"  name="moviename" [(ngModel)]="moviename" >
+
+<label for="">heroname:</label>
+<input  type="text" name="heroname" [(ngModel)]="heroname" >
+<br>
+<button (click)="getuser()">  Submit
+</button>
+<button (click)="updateuser(id)"> updateuser</button>
+
+
+</div>
+

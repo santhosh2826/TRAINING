@@ -1,0 +1,93 @@
+<!-- <p>crud works!</p>
+interpolation
+{{title}}
+<br>
+one way binding
+<label for="">Name:</label>
+<input type="text" [value]="title">
+<br>
+property binding
+<p [style.color]="mycolor">property binding</p>
+event binding
+<input type="text" placeholder="text any" #change>
+<button (click)="changecolor(change.value)"> change color </button>
+ngmodel two way binding
+<p [style.color]="twocolor">Two way binding</p>
+<input type="text" [(ngModel)]="twocolor">
+ngif
+<p *ngIf="show"> ngif</p>
+*ngFor
+<ul *ngFor="let item of emp;index as i">
+    <li *ngIf="i%2==0">{{i+1}}:{{item.fname}}</li>
+    <li>{{i+1}}:{{item.age}}</li>
+</ul>
+ngifelse
+<p *ngIf="false; else text">
+     if condition true diaplay this</p>
+<ng-template #text> condition  false dispaly this</ng-template> -->
+<h1 style="text-align: center;">Crud operation</h1>
+
+<div class="center">
+<table>
+    <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Age</th>
+    
+    </tr>
+    <tr *ngFor="let item of emp">
+        
+        <td>{{item.id}}</td>
+        <td>{{item.fname}}</td>
+        <td>{{item.age}}</td>
+    </tr>
+</table>
+</div>
+<br><br><br>
+<!-- <button (click)="add({fname:'vetri',age:23})">addNew</button> -->
+<!-- <button (click)="change()"> create user</button> -->
+<div class="btn">
+<button  [style.backgroundColor]="setcol"(click)="create()">Create User</button>
+<button  [style.backgroundColor]="setscol">Update user</button>
+<button [style.backgroundColor]="setcols" (click)="delete()">Delete User</button>
+</div>
+
+<div *ngIf="show">
+    <form action="">
+    <label for="">Id:</label>
+<input  type="text" #id>
+
+<label for="">name:</label>
+<input  type="text" #fname>
+
+<label for="">age:</label>
+<input  type="number" #a>
+<br>
+<button (click)="submit(id.value, fname.value,a.value)">Submit
+</button>
+</form>
+</div>
+<div class="succes" *ngIf="show1">
+    <i class="fa-solid fa-thumbs-up fa-2xl "> </i>
+    <br>
+    &nbsp;&nbsp; Succesfully <br>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;added
+    <button (click)="ok()" >ok</button>
+    
+</div>
+<div class="succes1" *ngIf="show2">
+    <i class="fa-solid fa-thumbs-up fa-2xl "> </i>
+    <br>
+    &nbsp;&nbsp; Succesfully <br>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;deleted
+    <button (click)="ok1()" >ok</button>
+    
+</div>
+<div *ngIf="shows">
+    <form action="" class="form1">
+    <label for="">Id:</label>
+    <input  type="text" #delid>
+    <button (click)="del(delid.value)">delete</button>
+</form>
+</div>
+
+<!-- <button (click)="val()">parent to child</button>
+<button (click)="val1()">child to parent</button> -->
